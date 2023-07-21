@@ -1,4 +1,4 @@
-### Protein Contact Map Generator ###
+### SSMAP: Protein Contact Map Generator ###
 
 **Description:** This project uses Python to generate a contact map for protein, which is color-coded based on its secondary structure. The map is then saved as a PNG image file. This is done using the BioPython library to parse PDB and DSSP files, numpy for mathematical operations, and matplotlib for visualization.
 
