@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 import numpy as np
 import matplotlib.pyplot as plt
 from Bio.PDB import *
@@ -59,7 +56,3 @@ cbar.set_ticklabels(['No contact', 'Original structure', 'Alpha helix', 'Anti-pa
 # Save the plot as a .png image
 base_name = os.path.basename(pdb_file).split('.')[0]  # extract the base name from the pdb file path
 plt.savefig(f"{base_name}_contact_map.png")
-
-
-
-
